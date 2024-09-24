@@ -6,15 +6,15 @@ plugins {
 }
 
 group = "io.github.cromat"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compileOnly("javax.servlet:javax.servlet-api:4.0.1")
-    compileOnly("jakarta.servlet:jakarta.servlet-api:6.1.0")
+    api("javax.servlet:javax.servlet-api:4.0.1")
+    api("jakarta.servlet:jakarta.servlet-api:6.1.0")
 }
 
 mavenPublishing {
