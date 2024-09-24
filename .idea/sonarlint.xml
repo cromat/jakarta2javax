@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="jakarta2javax" value="Jakarta2Javax" />
+        <entry key="jakarta2javax.main" value="Jakarta2Javax.main" />
+        <entry key="jakarta2javax.test" value="Jakarta2Javax.test" />
+      </map>
+    </option>
+  </component>
+</project>
