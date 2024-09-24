@@ -34,6 +34,21 @@ mavenPublishing {
                 name = "MIT License"
             }
         }
+
+        developers {
+            developer {
+                id = "cromat"
+                name = "Cromat"
+                email = "cromat.dev@gmail.com"
+                url = "https://cromat.github.io/"
+            }
+        }
+
+        scm {
+            url = "https://github.com/cromat/jakarta2javax"
+            connection = "scm:git:https://github.com/cromat/jakarta2javax.git"
+            developerConnection = "scm:git:git@github.com:cromat/jakarta2javax.git"
+        }
     }
 
     // Configure publishing to Maven Central
